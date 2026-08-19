@@ -322,7 +322,7 @@ void Render::drawMenu(config::MenuPoint m_list[])
 	m_screen[m_screen.size() - 1] += "{ S } ";
 	m_screen[m_screen.size() - 1] += "{ D } Right";
 	m_screen[m_screen.size() - 1].append(config::f_shift, ' ');
-	m_screen[m_screen.size() - 1] += "{ F } Attack / Choose";
+	m_screen[m_screen.size() - 1] += "{ F } Attack / Select";
 	spaces = config::last_position - m_screen[m_screen.size() - 1].size();
 	m_screen[m_screen.size() - 1].append(spaces, ' ');
 
